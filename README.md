@@ -1,3 +1,3 @@
 # Tdarr_Plugin
 
-This plugin removes all titles metadata from videos/audios/subtitles
+This plugin removes all titles from videos/audios/subtitles
