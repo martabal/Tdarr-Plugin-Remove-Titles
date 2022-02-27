@@ -1,6 +1,6 @@
-# Tdarr_Plugin
+# Tdarr Plugin Removes Titles
 
-This plugin removes all titles from videos/audios/subtitles
+This plugin removes all titles from videos/audios/subtitles streams
 
 ### Tdarr Docker
 
