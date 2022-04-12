@@ -136,7 +136,7 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
   // Convert file if convert variable is set to true.
   if (convert === true) {
     response.infoLog += '☒File has title metadata. Removing \n';
-    response.preset = `,${ffmpegCommandInsert} -c copy -map 0 -max_muxing_queue_size 9999`;
+    response.preset = `,${ffmpegCommandInsert} -c copy -map 0 -fflags +bitexact -flags:v +bitexact -flags:a +bitexact -max_muxing_queue_size 9999`;
     response.reQueueAfter = true;
     response.processFile = true;
   } else {
