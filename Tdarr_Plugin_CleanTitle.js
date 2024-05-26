@@ -213,7 +213,7 @@ const plugin = (file, _, inputs, _) => {
 
           if (
             custom_forced_subtitles_matching.includes(
-              file.ffProbeData.streams[i].tags.title
+              file.ffProbeData.streams[i].tags.title,
             ) &&
             forced_unwanted
           ) {
